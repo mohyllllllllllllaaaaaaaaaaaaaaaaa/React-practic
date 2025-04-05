@@ -1,10 +1,7 @@
+import Product from "./Product";
+import { Alert } from "./Alert";
 
-
-
-import Product from './Product';
-
-
-export default function App() {
+ function App() {
  return (
  <div>
  <h1>Best selling</h1>
@@ -22,18 +19,7 @@ export default function App() {
  </div>
  );
 }
-// src/components/App.jsx
 
-import { Alert } from "./Alert";
 
-export const App = () => {
-  return (
-    <>
-      <Alert>Please update your email!</Alert>
-      <Alert>There was an error during transaction!</Alert>
-      <Alert>Payment received, thank you for your purchase!</Alert>
-    </>
-  );
-};
-
+export default App;
   

@@ -1,6 +1,5 @@
 
-
-export default function Product({ name, imgUrl="https://dummyimage.com/640x480/2a2a2a/ffffff&text=Product+image+placeholder", price }) {
+ function Product({ name, imgUrl="https://dummyimage.com/640x480/2a2a2a/ffffff&text=Product+image+placeholder", price }) {
       return (
       <div>
       <h2>{name}</h2>
@@ -9,5 +8,5 @@ export default function Product({ name, imgUrl="https://dummyimage.com/640x480/2
       </div>
       );
      };
-     
+     export default  Product;
      
